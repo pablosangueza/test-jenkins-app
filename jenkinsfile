@@ -26,9 +26,7 @@ pipeline {
 		{
 			script
 			{
-				sh '''
-                    ./CI-CD-Scripts/CleanUp.sh
-                '''
+				ehco "clean all"
 			}
 		}
 	}
