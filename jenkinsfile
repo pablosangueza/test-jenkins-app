@@ -26,7 +26,7 @@ pipeline {
 		{
 			script
 			{
-				ehco "clean all"
+				echo "clean all"
 			}
 		}
 	}
